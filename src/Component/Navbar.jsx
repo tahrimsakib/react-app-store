@@ -1,10 +1,11 @@
 import React from "react";
-import logo from "../../public/logo.png";
+import logo from "../../public/assist/logo.png";
 import { Github } from "lucide-react";
+import { Link, Links } from "react-router";
 
-const Navbar = () => { 
+const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 md:px-8">
+    <div className="navbar bg-base-100 md:px-8 shadow-xs">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -28,19 +29,28 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a className="hover:link font-semibold hover:text-[#8d59ec]">
+              <Link
+                to="/"
+                className="hover:link font-semibold hover:text-[#8d59ec]"
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:link font-semibold hover:text-[#8d59ec]">
-                App
-              </a>
+              <Link
+                to="/apps"
+                className="hover:link font-semibold hover:text-[#8d59ec]"
+              >
+                Apps
+              </Link>
             </li>
             <li>
-              <a className="hover:link font-semibold hover:text-[#8d59ec]">
+              <Link
+                to="/installation"
+                className="hover:link font-semibold hover:text-[#8d59ec]"
+              >
                 Installation
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -53,14 +63,29 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 ">
-          <li className="hover:link font-semibold hover:text-[#8d59ec]">
-            <a>Home</a>
+          <li>
+            <Link
+              to="/"
+              className="hover:link font-semibold hover:text-[#8d59ec]"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/apps"
+              className="hover:link font-semibold hover:text-[#8d59ec]"
+            >
+              Apps
+            </Link>
           </li>
           <li className="hover:link font-semibold hover:text-[#8d59ec]">
-            <a href="">App</a>
-          </li>
-          <li className="hover:link font-semibold hover:text-[#8d59ec]">
-            <a>Installation</a>
+            <Link
+              to="/installation"
+              className="hover:link font-semibold hover:text-[#8d59ec]"
+            >
+              Installation
+            </Link>
           </li>
         </ul>
       </div>

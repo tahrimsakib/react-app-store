@@ -1,182 +1,544 @@
 [
   {
-    "image": "https://picsum.photos/200?1",
-    "title": "Notion Boost",
-    "companyName": "Notion Labs",
+    "image": "https://images.seeklogo.com/logo-png/26/1/spotify-2015-logo-png_seeklogo-266802.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
     "id": 1,
-    "description": "Notion Boost takes your productivity game to the next level. It adds powerful shortcuts, layout tweaks, and custom themes directly into your Notion workspace. Whether you're a student tracking notes or a professional managing projects, this extension helps you stay organized and efficient. The interface blends naturally with Notion, so you get more done without distractions.",
-    "size": 45,
-    "reviews": 2300,
-    "ratingAvg": 4.7,
-    "downloads": 500000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 230 },
-      { "name": "4 star", "count": 650 },
-      { "name": "5 star", "count": 1250 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/200?2",
-    "title": "Focus Flow",
-    "companyName": "MindSpark",
-    "id": 2,
-    "description": "Focus Flow helps you enter deep work mode with simple Pomodoro-style timers, customizable focus sessions, and ambient soundscapes. Designed for students and creators who struggle with distractions, it provides focus reports and small motivational breaks. Track your sessions, improve consistency, and make every minute count.",
-    "size": 33,
-    "reviews": 1200,
-    "ratingAvg": 4.5,
-    "downloads": 300000,
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 420 },
-      { "name": "5 star", "count": 430 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/200?3",
-    "title": "Wave Music",
-    "companyName": "AudioVerse",
-    "id": 3,
-    "description": "Wave Music is an intelligent streaming platform that understands your vibe. Its AI-based engine curates playlists from your listening habits, mixing global hits with local discoveries. It also works offline, making it perfect for road trips or chill sessions. With clean visuals and zero clutter, music just flows naturally.",
-    "size": 60,
-    "reviews": 5400,
+    "description": "Spotify is the go-to app for streaming millions of songs and podcasts. Build playlists, follow artists, and enjoy music personalized to your taste.",
+    "size": 85,
+    "reviews": "12M",
     "ratingAvg": 4.8,
-    "downloads": 1000000,
+    "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 500 },
-      { "name": "4 star", "count": 1200 },
-      { "name": "5 star", "count": 3700 }
+      { "name": "1 star", "count": "300K" },
+      { "name": "2 star", "count": "200K" },
+      { "name": "3 star", "count": "500K" },
+      { "name": "4 star", "count": "2M" },
+      { "name": "5 star", "count": "9.5M" }
     ]
   },
   {
-    "image": "https://picsum.photos/200?4",
-    "title": "Taskly",
-    "companyName": "ProLab Studio",
-    "id": 4,
-    "description": "Taskly is the ultimate to-do manager built for simplicity and speed. You can create tasks, set reminders, and track progress across multiple projects. It syncs automatically between all your devices and comes with smart suggestions to prioritize what truly matters. Ideal for minimalists who love structure without chaos.",
-    "size": 25,
-    "reviews": 980,
-    "ratingAvg": 4.3,
-    "downloads": 250000,
-    "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 320 },
-      { "name": "5 star", "count": 320 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/200?5",
-    "title": "SnapEdit",
-    "companyName": "Pixly Tech",
-    "id": 5,
-    "description": "SnapEdit gives you professional-level photo editing right on your phone. Remove unwanted backgrounds, enhance lighting, and apply AI-powered filters instantly. It also includes one-tap portrait retouching and creative presets for social media content creators. Perfect for anyone who wants clean, sharp, and stylish images without needing Photoshop skills.",
-    "size": 70,
-    "reviews": 4200,
+    "image": "https://images.seeklogo.com/logo-png/26/1/whatsapp-logo-png_seeklogo-260688.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "WhatsApp keeps you connected with friends and family across the globe. Chat, call, and share moments securely with end-to-end encryption.",
+    "size": 60,
+    "reviews": "8M",
     "ratingAvg": 4.6,
-    "downloads": 800000,
+    "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": 140 },
-      { "name": "2 star", "count": 210 },
-      { "name": "3 star", "count": 430 },
-      { "name": "4 star", "count": 860 },
-      { "name": "5 star", "count": 2560 }
+      { "name": "1 star", "count": "400K" },
+      { "name": "2 star", "count": "300K" },
+      { "name": "3 star", "count": "600K" },
+      { "name": "4 star", "count": "2.2M" },
+      { "name": "5 star", "count": "5.5M" }
     ]
   },
   {
-    "image": "https://picsum.photos/200?6",
-    "title": "FitTrack",
-    "companyName": "Wellio Health",
-    "id": 6,
-    "description": "FitTrack is your personal health companion. It tracks steps, workouts, and sleep patterns with beautiful analytics and goal insights. You can log meals, measure calories, and compete with friends for motivation. Whether you’re hitting the gym or just walking more, FitTrack helps you stay consistent and informed.",
-    "size": 52,
-    "reviews": 3900,
-    "ratingAvg": 4.4,
-    "downloads": 600000,
-    "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 240 },
-      { "name": "3 star", "count": 380 },
-      { "name": "4 star", "count": 1000 },
-      { "name": "5 star", "count": 2080 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/200?7",
-    "title": "Zen Journal",
-    "companyName": "CalmBit",
-    "id": 7,
-    "description": "Zen Journal is more than just a writing app — it’s a daily mindfulness tool. Record your thoughts, reflect on gratitude, and track your emotional state through simple prompts. With soothing UI and guided templates, journaling becomes a calming ritual that helps you focus, heal, and grow every day.",
-    "size": 40,
-    "reviews": 2000,
-    "ratingAvg": 4.9,
-    "downloads": 400000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 80 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 1560 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/200?8",
-    "title": "Learnify",
-    "companyName": "SkillZone",
-    "id": 8,
-    "description": "Learnify is the all-in-one platform for learning digital skills. With bite-sized lessons, live coding challenges, and AI feedback, it turns learning into a game. From coding to design to AI — you can learn anything at your own pace, track your progress, and earn certificates to level up your career.",
-    "size": 120,
-    "reviews": 8500,
+    "image": "https://images.seeklogo.com/logo-png/46/1/notion-icon-logo-png_seeklogo-465585.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 3,
+    "description": "Notion is your all-in-one workspace to write, plan, collaborate, and get organized. Create notes, wikis, tasks, and databases with a clean, flexible layout.",
+    "size": 90,
+    "reviews": "2.4M",
     "ratingAvg": 4.7,
-    "downloads": 2000000,
+    "downloads": "100M",
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 2400 },
-      { "name": "5 star", "count": 3700 }
+      { "name": "1 star", "count": "60K" },
+      { "name": "2 star", "count": "40K" },
+      { "name": "3 star", "count": "100K" },
+      { "name": "4 star", "count": "400K" },
+      { "name": "5 star", "count": "1.8M" }
     ]
   },
   {
-    "image": "https://picsum.photos/200?9",
-    "title": "BudgetEase",
-    "companyName": "Finly",
-    "id": 9,
-    "description": "BudgetEase makes managing money feel effortless. It automatically categorizes expenses, tracks income, and visualizes spending habits with intuitive charts. Get smart insights on how to save, set budgets for goals, and avoid overspending — all in one dashboard that keeps your finances under control.",
-    "size": 35,
-    "reviews": 3100,
+    "image": "https://images.seeklogo.com/logo-png/15/1/pinterest-badge-logo-png_seeklogo-157893.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 4,
+    "description": "Pinterest lets you discover and save creative ideas for every part of your life — from recipes and home design to fashion and travel inspiration.",
+    "size": 72,
+    "reviews": "3.5M",
     "ratingAvg": 4.5,
-    "downloads": 700000,
+    "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 410 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1470 }
+      { "name": "1 star", "count": "150K" },
+      { "name": "2 star", "count": "90K" },
+      { "name": "3 star", "count": "300K" },
+      { "name": "4 star", "count": "800K" },
+      { "name": "5 star", "count": "2.15M" }
     ]
   },
   {
-    "image": "https://picsum.photos/200?10",
-    "title": "QuickScan",
-    "companyName": "ScanGo Ltd",
-    "id": 10,
-    "description": "QuickScan lets you digitize documents instantly. Just point your camera, and it auto-detects edges, enhances quality, and converts pages to clean, searchable PDFs. It also syncs with Google Drive and Dropbox, so your scans are always backed up. Perfect for students, freelancers, and office pros alike.",
-    "size": 28,
-    "reviews": 2600,
-    "ratingAvg": 4.2,
-    "downloads": 500000,
+    "image": "https://images.seeklogo.com/logo-png/61/1/letterboxd-logo-png_seeklogo-616504.png",
+    "title": "Letterboxd",
+    "companyName": "Letterboxd Limited",
+    "id": 5,
+    "description": "Letterboxd is a social network for film lovers. Track films you've watched, write reviews, and connect with others who share your movie taste.",
+    "size": 50,
+    "reviews": "1.2M",
+    "ratingAvg": 4.9,
+    "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 260 },
-      { "name": "3 star", "count": 450 },
-      { "name": "4 star", "count": 880 },
-      { "name": "5 star", "count": 830 }
+      { "name": "1 star", "count": "10K" },
+      { "name": "2 star", "count": "7K" },
+      { "name": "3 star", "count": "20K" },
+      { "name": "4 star", "count": "150K" },
+      { "name": "5 star", "count": "1.03M" }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/CKXcX7JO9sqdfNpDs_x-Js6Wd_cZ5LD_EZZu9q17sMp3UI6FG-rci7glK5V2m4fTayPi",
+    "title": "Serialized",
+    "companyName": "Serialized Studios",
+    "id": 6,
+    "description": "Serialized helps you keep track of your favorite TV shows, anime, and series. Discover what's trending and never miss a new episode.",
+    "size": 45,
+    "reviews": "650K",
+    "ratingAvg": 4.6,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": "10K" },
+      { "name": "2 star", "count": "9K" },
+      { "name": "3 star", "count": "20K" },
+      { "name": "4 star", "count": "90K" },
+      { "name": "5 star", "count": "521K" }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/NWRVVF6zXvmcqspJwdFOKcQG6OlsNwpMOxED_DgB6B2BBDeWwAeWZKZxGhgqU0LQVJU",
+    "title": "Forest",
+    "companyName": "Seekrtech",
+    "id": 7,
+    "description": "Forest helps you stay focused and beat phone addiction. Plant trees while you work — if you leave the app, your tree dies. Stay productive and mindful.",
+    "size": 42,
+    "reviews": "2M",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": "15K" },
+      { "name": "2 star", "count": "8K" },
+      { "name": "3 star", "count": "20K" },
+      { "name": "4 star", "count": "200K" },
+      { "name": "5 star", "count": "1.78M" }
+    ]
+  },
+
+  {
+    "image": "https://images.seeklogo.com/logo-png/29/1/evernote-logo-png_seeklogo-298958.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 10,
+    "description": "Evernote helps you capture ideas, organize notes, and manage tasks across all devices — all in one workspace.",
+    "size": 80,
+    "reviews": "2.5M",
+    "ratingAvg": 4.4,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": "80K" },
+      { "name": "2 star", "count": "60K" },
+      { "name": "3 star", "count": "200K" },
+      { "name": "4 star", "count": "600K" },
+      { "name": "5 star", "count": "1.55M" }
+    ]
+  },
+  {
+    "image": "https://appsimpleink.nyc3.cdn.digitaloceanspaces.com/logo/qEFglrSTcThOCDx5Nky1xBIm6pDn9TVSaz5EoUbw.jpg",
+    "title": "Notion Boost",
+    "companyName": "Notion Labs, Inc.",
+    "id": 8,
+    "description": "Notion Boost takes your productivity game to the next level. It adds powerful shortcuts, layout tweaks, and custom themes directly into your Notion workspace. Whether you're a student tracking notes or a professional managing projects, this extension helps you stay organized and efficient. The interface blends naturally with Notion, so you get more done without distractions.",
+    "size": 25,
+    "reviews": "220K",
+    "ratingAvg": 4.7,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": "2K" },
+      { "name": "2 star", "count": "1.5K" },
+      { "name": "3 star", "count": "7K" },
+      { "name": "4 star", "count": "30K" },
+      { "name": "5 star", "count": "179.5K" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 9,
+    "description": "Telegram is a fast and secure messaging app with powerful group chat, file sharing, and privacy features.",
+    "size": 70,
+    "reviews": "4M",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "300K" },
+      { "name": "2 star", "count": "200K" },
+      { "name": "3 star", "count": "400K" },
+      { "name": "4 star", "count": "1M" },
+      { "name": "5 star", "count": "2.1M" }
+    ]
+  },
+
+  {
+    "image": "https://cdn.example.com/apps/slack.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 11,
+    "description": "Slack brings teams together. Message, share files, and integrate all your favorite tools in one place.",
+    "size": 110,
+    "reviews": "1.8M",
+    "ratingAvg": 4.3,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": "60K" },
+      { "name": "2 star", "count": "50K" },
+      { "name": "3 star", "count": "200K" },
+      { "name": "4 star", "count": "600K" },
+      { "name": "5 star", "count": "890K" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/duolingo.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "id": 12,
+    "description": "Learn new languages with fun, bite-sized lessons. Duolingo makes it easy to stay consistent and reach fluency goals faster.",
+    "size": 75,
+    "reviews": "9M",
+    "ratingAvg": 4.8,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": "150K" },
+      { "name": "2 star", "count": "80K" },
+      { "name": "3 star", "count": "200K" },
+      { "name": "4 star", "count": "1M" },
+      { "name": "5 star", "count": "7.62M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/todoist.png",
+    "title": "Todoist",
+    "companyName": "Doist Ltd.",
+    "id": 13,
+    "description": "Todoist helps you manage tasks and projects with ease. Keep your life organized with deadlines, reminders, and priorities.",
+    "size": 30,
+    "reviews": "600K",
+    "ratingAvg": 4.7,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": "10K" },
+      { "name": "2 star", "count": "7K" },
+      { "name": "3 star", "count": "20K" },
+      { "name": "4 star", "count": "90K" },
+      { "name": "5 star", "count": "473K" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/calm.png",
+    "title": "Calm",
+    "companyName": "Calm.com, Inc.",
+    "id": 14,
+    "description": "Calm helps you meditate, sleep better, and relax through guided sessions, music, and stories designed for mindfulness.",
+    "size": 65,
+    "reviews": "3M",
+    "ratingAvg": 4.7,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": "50K" },
+      { "name": "2 star", "count": "30K" },
+      { "name": "3 star", "count": "100K" },
+      { "name": "4 star", "count": "700K" },
+      { "name": "5 star", "count": "2.15M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/notability.png",
+    "title": "Notability",
+    "companyName": "Ginger Labs",
+    "id": 15,
+    "description": "Notability combines handwriting, photos, and typing in a single note. Perfect for students and professionals alike.",
+    "size": 55,
+    "reviews": "1.2M",
+    "ratingAvg": 4.8,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": "8K" },
+      { "name": "2 star", "count": "5K" },
+      { "name": "3 star", "count": "12K" },
+      { "name": "4 star", "count": "100K" },
+      { "name": "5 star", "count": "1.09M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/midjourney.png",
+    "title": "Midjourney AI",
+    "companyName": "Midjourney Labs",
+    "id": 16,
+    "description": "Generate stunning visuals with AI prompts. Midjourney brings creativity and imagination together in one platform.",
+    "size": 95,
+    "reviews": "890K",
+    "ratingAvg": 4.9,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": "9K" },
+      { "name": "2 star", "count": "4K" },
+      { "name": "3 star", "count": "20K" },
+      { "name": "4 star", "count": "120K" },
+      { "name": "5 star", "count": "737K" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/figma.png",
+    "title": "Figma",
+    "companyName": "Figma, Inc.",
+    "id": 17,
+    "description": "Figma is a collaborative design tool that makes UI/UX design faster, smoother, and more fun — all in your browser.",
+    "size": 150,
+    "reviews": "950K",
+    "ratingAvg": 4.8,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": "8K" },
+      { "name": "2 star", "count": "7K" },
+      { "name": "3 star", "count": "20K" },
+      { "name": "4 star", "count": "120K" },
+      { "name": "5 star", "count": "795K" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/canva.png",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 18,
+    "description": "Canva makes graphic design simple for everyone. Create posters, social posts, and presentations effortlessly.",
+    "size": 100,
+    "reviews": "12M",
+    "ratingAvg": 4.8,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": "200K" },
+      { "name": "2 star", "count": "100K" },
+      { "name": "3 star", "count": "300K" },
+      { "name": "4 star", "count": "1M" },
+      { "name": "5 star", "count": "10.5M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 19,
+    "description": "Zoom brings teams together with HD video meetings, chat, and collaboration tools for businesses and schools.",
+    "size": 120,
+    "reviews": "7M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "400K" },
+      { "name": "2 star", "count": "300K" },
+      { "name": "3 star", "count": "800K" },
+      { "name": "4 star", "count": "2M" },
+      { "name": "5 star", "count": "3.5M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/vscode.png",
+    "title": "Visual Studio Code",
+    "companyName": "Microsoft",
+    "id": 20,
+    "description": "VS Code is a lightweight but powerful code editor that runs everywhere. Perfect for web, app, and AI developers.",
+    "size": 130,
+    "reviews": "2.4M",
+    "ratingAvg": 4.9,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": "10K" },
+      { "name": "2 star", "count": "5K" },
+      { "name": "3 star", "count": "20K" },
+      { "name": "4 star", "count": "200K" },
+      { "name": "5 star", "count": "2.18M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 21,
+    "description": "Reddit is the front page of the internet. Dive into communities, discussions, and memes across every topic imaginable.",
+    "size": 85,
+    "reviews": "6M",
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": "400K" },
+      { "name": "2 star", "count": "250K" },
+      { "name": "3 star", "count": "500K" },
+      { "name": "4 star", "count": "1.2M" },
+      { "name": "5 star", "count": "3.65M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/x.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 22,
+    "description": "Stay updated with the latest trends, news, and conversations. X connects you to what's happening right now, globally.",
+    "size": 90,
+    "reviews": "11M",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "800K" },
+      { "name": "2 star", "count": "400K" },
+      { "name": "3 star", "count": "1M" },
+      { "name": "4 star", "count": "2.5M" },
+      { "name": "5 star", "count": "6.3M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 23,
+    "description": "Instagram lets you capture and share moments with friends and followers. Explore trends, reels, and stories from around the world.",
+    "size": 95,
+    "reviews": "20M",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "700K" },
+      { "name": "2 star", "count": "400K" },
+      { "name": "3 star", "count": "900K" },
+      { "name": "4 star", "count": "3M" },
+      { "name": "5 star", "count": "15M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/threads.png",
+    "title": "Threads",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 24,
+    "description": "Threads is a space to share ideas and join conversations in real time. Built by the Instagram team, it keeps things fast and friendly.",
+    "size": 60,
+    "reviews": "800K",
+    "ratingAvg": 4.2,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": "70K" },
+      { "name": "2 star", "count": "50K" },
+      { "name": "3 star", "count": "90K" },
+      { "name": "4 star", "count": "250K" },
+      { "name": "5 star", "count": "340K" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 25,
+    "description": "TikTok is where creativity meets culture. Create short videos, join global trends, and express yourself through music and storytelling.",
+    "size": 120,
+    "reviews": "18M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "1M" },
+      { "name": "2 star", "count": "500K" },
+      { "name": "3 star", "count": "1.2M" },
+      { "name": "4 star", "count": "3.5M" },
+      { "name": "5 star", "count": "11.8M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/google-photos.png",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 26,
+    "description": "Google Photos safely stores and organizes your photos with automatic backups, AI search, and easy sharing options.",
+    "size": 80,
+    "reviews": "10M",
+    "ratingAvg": 4.7,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "300K" },
+      { "name": "2 star", "count": "200K" },
+      { "name": "3 star", "count": "400K" },
+      { "name": "4 star", "count": "1.5M" },
+      { "name": "5 star", "count": "8.2M" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/obsidian.png",
+    "title": "Obsidian",
+    "companyName": "Obsidian Labs",
+    "id": 27,
+    "description": "Obsidian is a note-taking app built for knowledge management. Link your ideas together and create your personal knowledge graph.",
+    "size": 55,
+    "reviews": "500K",
+    "ratingAvg": 4.9,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": "4K" },
+      { "name": "2 star", "count": "3K" },
+      { "name": "3 star", "count": "10K" },
+      { "name": "4 star", "count": "90K" },
+      { "name": "5 star", "count": "396K" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/medium.png",
+    "title": "Medium",
+    "companyName": "A Medium Corporation",
+    "id": 28,
+    "description": "Medium is a platform for deep stories and ideas. Read, write, and connect with curious minds from all around the world.",
+    "size": 70,
+    "reviews": "1.2M",
+    "ratingAvg": 4.6,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": "20K" },
+      { "name": "2 star", "count": "15K" },
+      { "name": "3 star", "count": "50K" },
+      { "name": "4 star", "count": "250K" },
+      { "name": "5 star", "count": "920K" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/pocket.png",
+    "title": "Pocket",
+    "companyName": "Mozilla Corporation",
+    "id": 29,
+    "description": "Pocket lets you save articles and videos to view later. Read distraction-free across devices, online or offline.",
+    "size": 40,
+    "reviews": "900K",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": "10K" },
+      { "name": "2 star", "count": "6K" },
+      { "name": "3 star", "count": "15K" },
+      { "name": "4 star", "count": "120K" },
+      { "name": "5 star", "count": "749K" }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/apps/spotify-lite.png",
+    "title": "Spotify Lite",
+    "companyName": "Spotify AB",
+    "id": 30,
+    "description": "Spotify Lite is a smaller, faster version of Spotify. Stream your favorite music and podcasts while saving data and storage.",
+    "size": 15,
+    "reviews": "3.5M",
+    "ratingAvg": 4.5,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": "200K" },
+      { "name": "2 star", "count": "150K" },
+      { "name": "3 star", "count": "300K" },
+      { "name": "4 star", "count": "800K" },
+      { "name": "5 star", "count": "2.05M" }
     ]
   }
 ]
