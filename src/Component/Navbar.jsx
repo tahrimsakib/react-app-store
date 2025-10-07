@@ -1,4 +1,6 @@
 import React from "react";
+import logo from "../../public/logo.png";
+import { Github } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -27,33 +29,42 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <a className="hover:link font-semibold hover:text-[#8d59ec]">Home</a>
             </li>
             <li>
-             <a href="">App</a>
+              <a className="hover:link font-semibold hover:text-[#8d59ec]">App</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a className="hover:link font-semibold hover:text-[#8d59ec]">Installation</a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <figure className="flex justify-center items-center gap-2 cursor-pointer">
+          <img className="max-w-8 " src={logo} alt="" />
+          <a href="/" className="font-bold text-[#8d59ec] ">Hero App</a>
+        </figure>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
+        <ul className="menu menu-horizontal px-1 ">
+          <li className="hover:link font-semibold hover:text-[#8d59ec]">
+            <a>Home</a>
           </li>
-          <li>
-           <a href="">App</a>
+          <li className="hover:link font-semibold hover:text-[#8d59ec]">
+            <a href="">App</a>
           </li>
-          <li>
-            <a>Item 3</a>
+          <li className="hover:link font-semibold hover:text-[#8d59ec]">
+            <a>Installation</a>
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end ">
+        <a
+          href="https://github.com/tahrimsakib/react-app-store"
+          target="_blank"
+          className="rounded-[4px] flex bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] font-semibold p-2.5 text-white  btn btn-outline "
+        >
+          <Github></Github> Contribute
+        </a>
       </div>
     </div>
   );
