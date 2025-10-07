@@ -20,7 +20,7 @@ const Apps = ({ data }) => {
             return (
               <div
                 key={id}
-                className="bg-white p-3 shadow-xl rounded-lg w-full"
+                className="bg-white p-3 shadow-xl rounded-lg w-full hover:scale-[1.02] duration-200"
               >
                 <img
                   src={image}
