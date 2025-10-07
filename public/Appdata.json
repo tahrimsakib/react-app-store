@@ -1,0 +1,182 @@
+[
+  {
+    "image": "https://picsum.photos/200?1",
+    "title": "Notion Boost",
+    "companyName": "Notion Labs",
+    "id": 1,
+    "description": "Notion Boost takes your productivity game to the next level. It adds powerful shortcuts, layout tweaks, and custom themes directly into your Notion workspace. Whether you're a student tracking notes or a professional managing projects, this extension helps you stay organized and efficient. The interface blends naturally with Notion, so you get more done without distractions.",
+    "size": 45,
+    "reviews": 2300,
+    "ratingAvg": 4.7,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 1250 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?2",
+    "title": "Focus Flow",
+    "companyName": "MindSpark",
+    "id": 2,
+    "description": "Focus Flow helps you enter deep work mode with simple Pomodoro-style timers, customizable focus sessions, and ambient soundscapes. Designed for students and creators who struggle with distractions, it provides focus reports and small motivational breaks. Track your sessions, improve consistency, and make every minute count.",
+    "size": 33,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 430 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?3",
+    "title": "Wave Music",
+    "companyName": "AudioVerse",
+    "id": 3,
+    "description": "Wave Music is an intelligent streaming platform that understands your vibe. Its AI-based engine curates playlists from your listening habits, mixing global hits with local discoveries. It also works offline, making it perfect for road trips or chill sessions. With clean visuals and zero clutter, music just flows naturally.",
+    "size": 60,
+    "reviews": 5400,
+    "ratingAvg": 4.8,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?4",
+    "title": "Taskly",
+    "companyName": "ProLab Studio",
+    "id": 4,
+    "description": "Taskly is the ultimate to-do manager built for simplicity and speed. You can create tasks, set reminders, and track progress across multiple projects. It syncs automatically between all your devices and comes with smart suggestions to prioritize what truly matters. Ideal for minimalists who love structure without chaos.",
+    "size": 25,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?5",
+    "title": "SnapEdit",
+    "companyName": "Pixly Tech",
+    "id": 5,
+    "description": "SnapEdit gives you professional-level photo editing right on your phone. Remove unwanted backgrounds, enhance lighting, and apply AI-powered filters instantly. It also includes one-tap portrait retouching and creative presets for social media content creators. Perfect for anyone who wants clean, sharp, and stylish images without needing Photoshop skills.",
+    "size": 70,
+    "reviews": 4200,
+    "ratingAvg": 4.6,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 430 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 2560 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?6",
+    "title": "FitTrack",
+    "companyName": "Wellio Health",
+    "id": 6,
+    "description": "FitTrack is your personal health companion. It tracks steps, workouts, and sleep patterns with beautiful analytics and goal insights. You can log meals, measure calories, and compete with friends for motivation. Whether you’re hitting the gym or just walking more, FitTrack helps you stay consistent and informed.",
+    "size": 52,
+    "reviews": 3900,
+    "ratingAvg": 4.4,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2080 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?7",
+    "title": "Zen Journal",
+    "companyName": "CalmBit",
+    "id": 7,
+    "description": "Zen Journal is more than just a writing app — it’s a daily mindfulness tool. Record your thoughts, reflect on gratitude, and track your emotional state through simple prompts. With soothing UI and guided templates, journaling becomes a calming ritual that helps you focus, heal, and grow every day.",
+    "size": 40,
+    "reviews": 2000,
+    "ratingAvg": 4.9,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1560 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?8",
+    "title": "Learnify",
+    "companyName": "SkillZone",
+    "id": 8,
+    "description": "Learnify is the all-in-one platform for learning digital skills. With bite-sized lessons, live coding challenges, and AI feedback, it turns learning into a game. From coding to design to AI — you can learn anything at your own pace, track your progress, and earn certificates to level up your career.",
+    "size": 120,
+    "reviews": 8500,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?9",
+    "title": "BudgetEase",
+    "companyName": "Finly",
+    "id": 9,
+    "description": "BudgetEase makes managing money feel effortless. It automatically categorizes expenses, tracks income, and visualizes spending habits with intuitive charts. Get smart insights on how to save, set budgets for goals, and avoid overspending — all in one dashboard that keeps your finances under control.",
+    "size": 35,
+    "reviews": 3100,
+    "ratingAvg": 4.5,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 410 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1470 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?10",
+    "title": "QuickScan",
+    "companyName": "ScanGo Ltd",
+    "id": 10,
+    "description": "QuickScan lets you digitize documents instantly. Just point your camera, and it auto-detects edges, enhances quality, and converts pages to clean, searchable PDFs. It also syncs with Google Drive and Dropbox, so your scans are always backed up. Perfect for students, freelancers, and office pros alike.",
+    "size": 28,
+    "reviews": 2600,
+    "ratingAvg": 4.2,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 880 },
+      { "name": "5 star", "count": 830 }
+    ]
+  }
+]

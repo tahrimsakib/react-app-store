@@ -2,9 +2,9 @@ import React from "react";
 import logo from "../../public/logo.png";
 import { Github } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = () => { 
   return (
-    <div className="navbar bg-base-100 ">
+    <div className="navbar bg-base-100 md:px-8">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -15,13 +15,12 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              {" "}
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
+              />
             </svg>
           </div>
           <ul
@@ -29,19 +28,27 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a className="hover:link font-semibold hover:text-[#8d59ec]">Home</a>
+              <a className="hover:link font-semibold hover:text-[#8d59ec]">
+                Home
+              </a>
             </li>
             <li>
-              <a className="hover:link font-semibold hover:text-[#8d59ec]">App</a>
+              <a className="hover:link font-semibold hover:text-[#8d59ec]">
+                App
+              </a>
             </li>
             <li>
-              <a className="hover:link font-semibold hover:text-[#8d59ec]">Installation</a>
+              <a className="hover:link font-semibold hover:text-[#8d59ec]">
+                Installation
+              </a>
             </li>
           </ul>
         </div>
         <figure className="flex justify-center items-center gap-2 cursor-pointer">
           <img className="max-w-8 " src={logo} alt="" />
-          <a href="/" className="font-bold text-[#8d59ec] ">Hero App</a>
+          <a href="/" className="font-bold text-[#8d59ec] ">
+            Hero App
+          </a>
         </figure>
       </div>
       <div className="navbar-center hidden lg:flex">
