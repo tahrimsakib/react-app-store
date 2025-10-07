@@ -1,7 +1,9 @@
 import { Download, Star } from "lucide-react";
 import React from "react";
+import { Link } from "react-router";
 
 const Apps = ({ data }) => {
+    
   const firstEight = data.slice(0, 8);
   return (
     <div className="bg-[#f5f5f5]">
@@ -41,9 +43,10 @@ const Apps = ({ data }) => {
           })}
         </div>
         <div className="flex justify-center py-8">
-          <button className="rounded-[4px] flex bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] font-semibold p-2.5 text-white  px-9 ">
+          
+          <Link to='/app' className="rounded-[4px] flex bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] font-semibold p-2.5 text-white  px-9 ">
             Show All
-          </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/apps"
+                to="/app"
                 className="hover:link font-semibold hover:text-[#8d59ec]"
               >
                 Apps
@@ -73,7 +73,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/apps"
+              to="/app"
               className="hover:link font-semibold hover:text-[#8d59ec]"
             >
               Apps
