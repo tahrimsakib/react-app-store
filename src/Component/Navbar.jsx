@@ -1,9 +1,14 @@
 import React from "react";
 import logo from "../../public/assist/logo.png";
 import { Github } from "lucide-react";
-import { Link, Links } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
+  const active = ({ isActive }) => `
+  hover:link font-semibold hover:text-[#8d59ec] ${
+    isActive ? "text-[#8d59ec] underline" : "text-black font-semibold"
+  }
+  `;
   return (
     <div className="navbar bg-base-100 md:px-8 shadow-xs">
       <div className="navbar-start">
@@ -29,28 +34,19 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <Link
-                to="/"
-                className="hover:link font-semibold hover:text-[#8d59ec]"
-              >
+              <NavLink to="/" className={active}>
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
-                to="/app"
-                className="hover:link font-semibold hover:text-[#8d59ec]"
-              >
+              <NavLink to="/app" className={active}>
                 Apps
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
-                to="/installation"
-                className="hover:link font-semibold hover:text-[#8d59ec]"
-              >
+              <NavLink to="/installation" className={active}>
                 Installation
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -64,28 +60,19 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 ">
           <li>
-            <Link
-              to="/"
-              className="hover:link font-semibold hover:text-[#8d59ec]"
-            >
+            <NavLink to="/" className={active}>
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
-              to="/app"
-              className="hover:link font-semibold hover:text-[#8d59ec]"
-            >
+            <NavLink to="/app" className={active}>
               Apps
-            </Link>
+            </NavLink>
           </li>
-          <li className="hover:link font-semibold hover:text-[#8d59ec]">
-            <Link
-              to="/installation"
-              className="hover:link font-semibold hover:text-[#8d59ec]"
-            >
+          <li>
+            <NavLink to="/installation" className={active}>
               Installation
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

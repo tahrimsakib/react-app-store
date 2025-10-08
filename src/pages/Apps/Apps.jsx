@@ -7,7 +7,7 @@ const Apps = ({ data }) => {
 
   return (
     <div className="bg-[#f5f5f5]">
-      <div className="max-w-11/12 mx-auto ">
+      <div className="max-w-11/12 mx-auto">
         <h1 className="text-3xl md:text-5xl font-bold text-[#001931] flex justify-center pt-8">
           Trending Apps
         </h1>

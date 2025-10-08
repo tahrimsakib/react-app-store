@@ -5,7 +5,7 @@ import appstore from "../../public/assist/apple-app-store.png";
 
 const Banner = () => {
   return (
-    <div className="bg-[#f5f5f5] min-h-screen">
+    <div className="bg-[#f5f5f5] ">
       <div className=" flex flex-col justify-center items-center gap-4 pt-7">
         <div className="text-center my-8 ">
           <h1 className="text-3xl md:text-5xl font-bold">

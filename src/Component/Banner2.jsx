@@ -5,7 +5,7 @@ const Banner2 = () => {
     <div>
       <div className="bg-gradient-to-br from-[#632EE3] to-[#9F62F2] flex items-center justify-center p-8">
         <div className=" max-w-5xl w-full">
-          <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-14">
             Trusted By Millions, Built For You
           </h2>
 

@@ -25,7 +25,7 @@ const AppDetails = () => {
     <div className="bg-[#f5f5f5] min-h-screen">
       <div className="max-w-11/12 mx-auto py-10 ">
         <div className="flex-col md:flex md:flex-row items-center ">
-          <figure className="mr-7 mb-4 flex justify-center items-center">
+          <figure className="mr-15 mb-4 flex justify-center items-center">
             <img className="w-80 object-contain" src={image} alt={title} />
           </figure>
           <div>

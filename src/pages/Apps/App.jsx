@@ -11,7 +11,7 @@ const App = () => {
   );
 
   return (
-    <div className="bg-[#f5f5f5] min-h-screen">
+    <div className="bg-[#f5f5f5] min-h-screen w-screen">
       <div className="max-w-11/12 mx-auto py-10">
         <div>
           <h1 className="text-3xl md:text-5xl font-bold text-[#001931] flex justify-center pt-2">
@@ -71,7 +71,7 @@ const App = () => {
             })
           ) : (
             <p className="text-center text-gray-500 col-span-full mt-5">
-              No apps found 😢
+              No apps found 
             </p>
           )}
         </div>
