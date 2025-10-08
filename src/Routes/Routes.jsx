@@ -1,6 +1,6 @@
 import React from "react";
 import { createBrowserRouter } from "react-router";
-import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import ErrorPage from "../pages/Error/ErrorPage";
 import Home from "../pages/Home";
 import Roots from "../Roots/Roots";
 import Apps from "../pages/Apps/Apps";
@@ -27,6 +27,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/installation",
+        loader: () => fetch("/appdata.json"),
         Component: Installation,
       },
       {

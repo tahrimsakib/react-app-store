@@ -1,6 +1,11 @@
 import { Download, MessageSquareHeart, Star } from "lucide-react";
 import React from "react";
 import { useLoaderData, useParams } from "react-router";
+import { addToStore } from "../../Utility/AddToLS";
+
+const handleClick = (id) => {
+  addToStore(id);
+};
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -56,7 +61,10 @@ const AppDetails = () => {
                 <h1 className="font-bold text-4xl">{reviews} </h1>
               </div>
             </div>
-            <button className="mt-5 btn btn-primary">
+            <button
+              onClick={() => handleClick(id)}
+              className="mt-5 rounded-[4px] flex bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] font-semibold p-2.5 text-white  btn btn-outline"
+            >
               Install Now ({size} MB){" "}
             </button>
           </div>

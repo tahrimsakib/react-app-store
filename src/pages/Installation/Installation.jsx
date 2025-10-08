@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import { useLoaderData } from "react-router";
 
 const Installation = () => {
-    return (
-        <div>
-            <h1>/installation</h1>
-        </div>
-    );
+  const data = useLoaderData();
+
+  console.log(data);
+  return (
+    <div>
+      <h1>installation</h1>
+    </div>
+  );
 };
 
 export default Installation;
