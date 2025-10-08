@@ -18,7 +18,7 @@ const Apps = ({ data }) => {
           {firstEight.map((singleApp) => {
             const { id, title, image, ratingAvg, downloads } = singleApp;
             return (
-              <Link to={`appdetails/${id}`}>
+              <Link to={`app/appdetails/${id}`}>
                 <div
                   key={id}
                   className="bg-white p-3 shadow-xl rounded-lg w-full hover:scale-[1.02] duration-200"
@@ -46,8 +46,8 @@ const Apps = ({ data }) => {
         </div>
         <div className="flex justify-center py-8">
           <Link
-            to="/app"
-            className="rounded-[4px] flex bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] font-semibold p-2.5 text-white  px-9 "
+            to={`/app`}
+            className="rounded-[4px] flex bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] font-semibold p-2.5 text-white  px-9"
           >
             Show All
           </Link>

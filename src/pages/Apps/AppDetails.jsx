@@ -8,14 +8,22 @@ const AppDetails = () => {
   console.log(id);
   const data = useLoaderData();
   const singleData = data.find((app) => app.id === appId);
-  const { title, image, companyName, downloads, ratingAvg, reviews, size } =
-    singleData;
+  const {
+    title,
+    image,
+    companyName,
+    downloads,
+    ratingAvg,
+    reviews,
+    size,
+    description,
+  } = singleData;
 
   console.log(data);
 
   return (
-    <div className="max-w-11/12 mx-auto">
-      <div className="flex items-center  ">
+    <div className="max-w-11/12 mx-auto my-10">
+      <div className="flex items-center ">
         <figure className="mr-7">
           <img className="w-80 object-contain" src={image} alt={title} />
         </figure>
@@ -23,13 +31,13 @@ const AppDetails = () => {
           <div>
             <h1 className="font-bold text-2xl">{title}</h1>
             <p className="text-gray-500">
-              company Name:{" "}
+              Company Name:{" "}
               <span className="text-violet-600 font-semibold">
                 {companyName}
               </span>
             </p>
-            <span className="divider"></span>
           </div>
+          <div className="divider"></div>
           <div className="flex justify-baseline gap-9 ">
             <div>
               <Download></Download>
@@ -51,6 +59,13 @@ const AppDetails = () => {
             Install Now ({size} MB){" "}
           </button>
         </div>
+      </div>
+      <div className="divider"></div>
+      <div className="">flow chart</div>
+      <div className="divider"></div>
+      <div className="">
+        <h1 className="text-2xl font-semibold">Description</h1>
+        <p className="text-gray-500">{description}</p>
       </div>
     </div>
   );
