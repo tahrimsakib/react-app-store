@@ -10,7 +10,7 @@ const handleClick = (id) => {
 const AppDetails = () => {
   const { id } = useParams();
   const appId = parseInt(id);
-  console.log(id);
+
   const data = useLoaderData();
   const singleData = data.find((app) => app.id === appId);
   const {
@@ -24,8 +24,6 @@ const AppDetails = () => {
     description,
   } = singleData;
 
-  console.log(data);
-
   return (
     <div className="bg-[#f5f5f5] min-h-screen">
       <div className="max-w-11/12 mx-auto py-10 ">
@@ -35,7 +33,9 @@ const AppDetails = () => {
           </figure>
           <div>
             <div>
-              <h1 className="font-bold text-2xl md:text-4xl">{title}</h1>
+              <h1 className="font-bold text-2xl text-[#001931]  md:text-4xl">
+                {title}
+              </h1>
               <p className="text-gray-500">
                 Company Name:{" "}
                 <span className="text-violet-600 font-semibold">
@@ -63,9 +63,9 @@ const AppDetails = () => {
             </div>
             <button
               onClick={() => handleClick(id)}
-              className="mt-5 rounded-[4px] flex bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] font-semibold p-2.5 text-white  btn btn-outline"
+              className="  mt-5 flex items-center justify-center gap-2 rounded-lg bg-[linear-gradient(125deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] p-3 font-semibold text-white shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.03] active:scale-[0.97] hover:brightness-105 btn btn-outline"
             >
-              Install Now ({size} MB){" "}
+              Install Now ({size} MB)
             </button>
           </div>
         </div>

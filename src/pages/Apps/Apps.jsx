@@ -47,7 +47,7 @@ const Apps = ({ data }) => {
         <div className="flex justify-center py-8">
           <Link
             to={`/app`}
-            className="rounded-[4px] flex bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] font-semibold p-2.5 text-white  px-9"
+            className=" flex items-center justify-center gap-2 rounded-lg bg-[linear-gradient(125deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] p-3 font-semibold text-white shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.03] active:scale-[0.97] hover:brightness-105 btn btn-outline px-10"
           >
             Show All
           </Link>

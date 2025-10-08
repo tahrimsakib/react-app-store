@@ -44,7 +44,7 @@ const App = () => {
             filteredData.map((singleApp) => {
               const { id, title, image, ratingAvg, downloads } = singleApp;
               return (
-                <Link to={`/app/appdetails/${id}`}>
+                <Link key={id} to={`/app/appdetails/${id}`}>
                   <div
                     key={id}
                     className="bg-white p-3 shadow-xl rounded-lg w-full transition hover:scale-[1.02] duration-200"
@@ -70,9 +70,9 @@ const App = () => {
               );
             })
           ) : (
-            <p className="text-center text-gray-500 col-span-full mt-5">
-              No apps found 
-            </p>
+            <h1 className="text-center text-4xl md:text-6xl font-bold text-gray-500 col-span-full mt-20">
+              No apps found
+            </h1>
           )}
         </div>
       </div>
