@@ -17,4 +17,4 @@ const addToStore = (id) => {
   }
 };
 
-export { addToStore };
+export { addToStore, getStoreApp };

@@ -3,7 +3,6 @@ import { createBrowserRouter } from "react-router";
 import ErrorPage from "../pages/Error/ErrorPage";
 import Home from "../pages/Home";
 import Roots from "../Roots/Roots";
-import Apps from "../pages/Apps/Apps";
 import Installation from "../pages/Installation/Installation";
 import App from "../pages/Apps/App";
 import AppDetails from "../pages/Apps/AppDetails";
