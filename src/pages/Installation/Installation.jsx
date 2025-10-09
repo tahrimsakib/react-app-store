@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import { getStoreApp, removeApp } from "../../Utility/AddToLS";
 import { Download, Star } from "lucide-react";
+import { toast } from "react-toastify";
 
 const Installation = () => {
   const data = useLoaderData();
@@ -17,6 +18,7 @@ const Installation = () => {
 
   const handleUninstall = (id) => {
     removeApp(id);
+    toast("App Uninstalled");
     setAppList((prev) => prev.filter((app) => app.id !== id));
   };
 
@@ -35,7 +37,7 @@ const Installation = () => {
   };
   return (
     <div className="bg-[#f5f5f5]">
-      <div className="max-w-11/12 min-h-[calc(100vh-270px)] mx-auto py-10">
+      <div className="max-w-11/12 min-h-[calc(100vh-318px)] mx-auto py-10">
         <div className="flex justify-between items-center mb-3">
           <h1 className="text-[15px] md:text-xl font-semibold text-[#001931]">
             App Found {appList.length}{" "}
@@ -53,7 +55,7 @@ const Installation = () => {
           </details>
         </div>
         {appList.map((app) => {
-          const { id, image, downloads, size, title ,ratingAvg } = app;
+          const { id, image, downloads, size, title, ratingAvg } = app;
           return (
             <div
               key={id}
@@ -64,7 +66,7 @@ const Installation = () => {
                   <img className="w-18 mr-3.5" src={image} alt="" />
                 </figure>
                 <div>
-                  <h1 className="font-semibold">{title} </h1>{" "}
+                  <h1 className="font-semibold mb-3.5">{title} </h1>{" "}
                   <div className="flex gap-3">
                     <p className="flex items-center justify-center gap-0.5 bg-[#f1f5e8] py-0.5 text-green-500 font-medium text-xs px-2 rounded-[4px]">
                       <Download size={14} color="#1ed761" strokeWidth={1.75} />

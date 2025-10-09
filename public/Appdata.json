@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://images.seeklogo.com/logo-png/26/1/spotify-2015-logo-png_seeklogo-266802.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/320px-Spotify_icon.svg.png",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 1,
@@ -17,8 +17,8 @@
       { "name": "5 star", "count": "9.5M" }
     ]
   },
-  {
-    "image": "https://images.seeklogo.com/logo-png/26/1/whatsapp-logo-png_seeklogo-260688.png",
+   {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png?20220228223904",
     "title": "WhatsApp Messenger",
     "companyName": "Meta Platforms, Inc.",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://images.seeklogo.com/logo-png/46/1/notion-icon-logo-png_seeklogo-465585.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/320px-Notion-logo.svg.png",
     "title": "Notion",
     "companyName": "Notion Labs, Inc.",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://images.seeklogo.com/logo-png/15/1/pinterest-badge-logo-png_seeklogo-157893.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://images.seeklogo.com/logo-png/61/1/letterboxd-logo-png_seeklogo-616504.png",
+    "image": "https://a.ltrbxd.com/logos/letterboxd-decal-dots-pos-rgb.svg",
     "title": "Letterboxd",
     "companyName": "Letterboxd Limited",
     "id": 5,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://images.seeklogo.com/logo-png/29/1/evernote-logo-png_seeklogo-298958.png",
+    "image": "https://i.pinimg.com/736x/15/f9/75/15f975fce17e520de9166be72d0f253f.jpg",
     "title": "Evernote",
     "companyName": "Evernote Corporation",
     "id": 8,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/telegram.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/slack.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/1024px-Slack_icon_2019.svg.png",
     "title": "Slack",
     "companyName": "Slack Technologies",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/duolingo.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJhyOBkI9m73a63Ayf9uQFQdDrLA5aTSJahQ&s",
     "title": "Duolingo",
     "companyName": "Duolingo, Inc.",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/todoist.png",
+    "image": "https://img.icons8.com/color/200/todoist.png",
     "title": "Todoist",
     "companyName": "Doist Ltd.",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/calm.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIV7OEwMgpKWzN-Td6lgrEcKzNQ8-vh-3pgA&s",
     "title": "Calm",
     "companyName": "Calm.com, Inc.",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/notability.png",
+    "image": "https://mma.prnewswire.com/media/1674635/NotabilityLogo.jpg",
     "title": "Notability",
     "companyName": "Ginger Labs",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/midjourney.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Midjourney_Emblem.svg",
     "title": "Midjourney AI",
     "companyName": "Midjourney Labs",
     "id": 16,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/figma.png",
+    "image": "https://static.vecteezy.com/system/resources/previews/065/386/871/non_2x/figma-logo-icon-figma-app-editable-transparent-background-premium-social-media-design-for-digital-download-free-png.png",
     "title": "Figma",
     "companyName": "Figma, Inc.",
     "id": 17,
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/canva.png",
+    "image": "https://static.vecteezy.com/system/resources/previews/032/329/171/non_2x/canva-icon-logo-symbol-free-png.png",
     "title": "Canva",
     "companyName": "Canva Pty Ltd",
     "id": 18,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/zoom.png",
+    "image": "https://static.vecteezy.com/system/resources/previews/054/298/846/non_2x/zoom-logo-illustration-in-square-background-free-png.png",
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 19,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/vscode.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/768px-Visual_Studio_Code_1.35_icon.svg.png",
     "title": "Visual Studio Code",
     "companyName": "Microsoft",
     "id": 20,
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/reddit.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwYiqp3qosq9gLigZcIJ5FHEgoHG-B2DTrg&s",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 21,
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/x.png",
+    "image": "https://img.freepik.com/premium-vector/twitter-new-x-logo-design-vector_1340851-70.jpg?semt=ais_hybrid&w=740&q=80",
     "title": "X (Twitter)",
     "companyName": "X Corp.",
     "id": 22,
@@ -396,7 +396,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/instagram.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png",
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 23,
@@ -414,7 +414,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/threads.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOQT83dtIlgCmJiM8X08gAFfHSDkuxBXA1Q&s",
     "title": "Threads",
     "companyName": "Meta Platforms, Inc.",
     "id": 24,
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/tiktok.png",
+    "image": "https://static.vecteezy.com/system/resources/previews/016/716/450/non_2x/tiktok-icon-free-png.png",
     "title": "TikTok",
     "companyName": "ByteDance Ltd.",
     "id": 25,
@@ -450,7 +450,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/google-photos.png",
+    "image": "https://cdn-icons-png.flaticon.com/512/2965/2965311.png",
     "title": "Google Photos",
     "companyName": "Google LLC",
     "id": 26,
@@ -468,7 +468,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/obsidian.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2023_Obsidian_logo.svg/1024px-2023_Obsidian_logo.svg.png",
     "title": "Obsidian",
     "companyName": "Obsidian Labs",
     "id": 27,
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/medium.png",
+    "image": "https://www.svgrepo.com/show/354057/medium-icon.svg",
     "title": "Medium",
     "companyName": "A Medium Corporation",
     "id": 28,
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/pocket.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Pocket_logo.png",
     "title": "Pocket",
     "companyName": "Mozilla Corporation",
     "id": 29,
@@ -522,7 +522,7 @@
     ]
   },
   {
-    "image": "https://cdn.example.com/apps/spotify-lite.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd4jbXkWaYRcqw7zkFheo1YSlmlUSaEZyQFw&s",
     "title": "Spotify Lite",
     "companyName": "Spotify AB",
     "id": 30,

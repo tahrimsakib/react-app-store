@@ -10,7 +10,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -41,12 +41,12 @@ const AppDetails = () => {
   const handleClick = () => {
     const stored = getStoreApp();
     if (stored.includes(appId)) {
-      toast.info("Already Installed!");
       setInstall(true);
       return;
     }
 
     addToStore(appId);
+    toast('App Installed Successfully!')
     setInstall(true);
   };
 
@@ -113,7 +113,7 @@ const AppDetails = () => {
             >
               {install ? "Installed" : `Install Now (${size} MB)`}
             </button>
-            <ToastContainer />
+           
           </div>
         </div>
 
