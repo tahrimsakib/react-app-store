@@ -2,7 +2,14 @@ import { Download, MessageSquareHeart, Star } from "lucide-react";
 import React from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import { addToStore } from "../../Utility/AddToLS";
-import { BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 const handleClick = (id) => {
   addToStore(id);
@@ -84,14 +91,26 @@ const AppDetails = () => {
           </div>
         </div>
         <div className="divider"></div>
-        <div className="px-10">
+        <div className=" ">
           <h1 className="text-2xl font-semibold mb-10">Ratting</h1>
-          <BarChart width={1000} height={250} data={ratings} layout="vertical">
-            <XAxis type="number" />
-            <YAxis dataKey="name" type="category" reversed />
-            <Tooltip />
-            <Bar dataKey="count" fill="rgba(159,98,242,1)" />
-          </BarChart>
+          <div className="w-full h-[250px]">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart
+                data={ratings}
+                layout="vertical"
+                margin={{ top: 10, right: 30, left: 0, bottom: 10 }}
+              >
+                <XAxis type="number" />
+                <YAxis dataKey="name" type="category" reversed />
+                <Tooltip />
+                <Bar
+                  dataKey="count"
+                  fill="rgba(159,98,242,1)"
+                  radius={[0, 6, 6, 0]}
+                />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
         </div>
 
         <div className="divider"></div>
