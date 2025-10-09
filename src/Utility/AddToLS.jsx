@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const getStoreApp = () => {
   const getApp = localStorage.getItem("appList");
   if (getApp) {
@@ -10,7 +12,7 @@ const getStoreApp = () => {
 const addToStore = (id) => {
   const setStoreData = getStoreApp();
   if (setStoreData.includes(id)) {
-    alert("already added");
+    toast("Already Added!");
   } else {
     setStoreData.push(id);
     localStorage.setItem("appList", JSON.stringify(setStoreData));
