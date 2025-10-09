@@ -10,7 +10,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -38,16 +38,9 @@ const AppDetails = () => {
     }
   }, [appId]);
 
-  const handleClick = (id) => {
-    const stored = getStoreApp();
-    if (stored.includes(id)) {
-      toast.info("Already Installed!");
-      return;
-    }
-
-    addToStore(id);
-    setInstall(true);
-    toast.success("App Installed!");
+  const handleClick = () => {
+    const result = addToStore(appId);
+    if (result) setInstall(true);
   };
 
   const ratings = singleData.ratings.map((item) => {
@@ -101,7 +94,7 @@ const AppDetails = () => {
               </div>
             </div>
             <button
-              onClick={() => handleClick(appId)}
+              onClick={handleClick}
               disabled={install}
               className={`mt-5 flex items-center justify-center gap-2 rounded-lg 
                 ${
