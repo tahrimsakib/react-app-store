@@ -5,8 +5,8 @@ import { Download, Star } from "lucide-react";
 
 const Installation = () => {
   const data = useLoaderData();
-
   const [appList, setAppList] = useState([]);
+  const [sort, setSort] = useState("");
 
   useEffect(() => {
     const storeApp = getStoreApp();
@@ -20,14 +20,40 @@ const Installation = () => {
     setAppList((prev) => prev.filter((app) => app.id !== id));
   };
 
+  const handleSort = (type) => {
+    setSort(type);
+    if (type === "Size") {
+      const sortBySize = [...appList].sort((a, b) => b.size - a.size);
+      setAppList(sortBySize);
+    }
+    if (type === "Rating") {
+      const sortByRating = [...appList].sort(
+        (a, b) => b.ratingAvg - a.ratingAvg
+      );
+      setAppList(sortByRating);
+    }
+  };
   return (
     <div className="bg-[#f5f5f5]">
-      <div className="max-w-11/12 mx-auto py-10">
-        <h1 className="text-[15px] md:text-xl font-semibold text-[#001931]">
-          App Found {appList.length}{" "}
-        </h1>
+      <div className="max-w-11/12 min-h-[calc(100vh-270px)] mx-auto py-10">
+        <div className="flex justify-between items-center mb-3">
+          <h1 className="text-[15px] md:text-xl font-semibold text-[#001931]">
+            App Found {appList.length}{" "}
+          </h1>
+          <details className="dropdown">
+            <summary className="btn m-1">Sort By: {sort ? sort : ""} </summary>
+            <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-25 p-2 shadow-sm">
+              <li>
+                <a onClick={() => handleSort("Size")}>Size</a>
+              </li>
+              <li>
+                <a onClick={() => handleSort("Rating")}>Rating</a>
+              </li>
+            </ul>
+          </details>
+        </div>
         {appList.map((app) => {
-          const { id, image, downloads, reviews, size, title } = app;
+          const { id, image, downloads, size, title ,ratingAvg } = app;
           return (
             <div
               key={id}
@@ -46,7 +72,7 @@ const Installation = () => {
                     </p>
                     <p className="flex items-center gap-0.5 bg bg-[#fff0e1] text-orange-500 font-medium text-xs px-2 rounded-[4px]">
                       <Star size={14} color="#ff8811" strokeWidth={1.75}></Star>
-                      {reviews}
+                      {ratingAvg}
                     </p>
                     <p className=" flex items-center gap-0.5 bg bg-[#dcdcdc] text-gray-600 font-medium text-xs px-2 rounded-[4px]">
                       {size} MB

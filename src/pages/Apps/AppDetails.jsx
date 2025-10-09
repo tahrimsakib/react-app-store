@@ -10,7 +10,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { ToastContainer } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -39,8 +39,15 @@ const AppDetails = () => {
   }, [appId]);
 
   const handleClick = () => {
-    const result = addToStore(appId);
-    if (result) setInstall(true);
+    const stored = getStoreApp();
+    if (stored.includes(appId)) {
+      toast.info("Already Installed!");
+      setInstall(true);
+      return;
+    }
+
+    addToStore(appId);
+    setInstall(true);
   };
 
   const ratings = singleData.ratings.map((item) => {
@@ -52,7 +59,7 @@ const AppDetails = () => {
   });
 
   return (
-    <div className="bg-[#f5f5f5] min-h-screen">
+    <div className="bg-[#f5f5f5] min-h-screen ">
       <div className="max-w-11/12 mx-auto py-10">
         <div className="flex-col md:flex md:flex-row items-center">
           <figure className="mr-30 mb-4 flex justify-center items-center">
