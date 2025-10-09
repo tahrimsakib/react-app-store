@@ -2,7 +2,7 @@ import { Download, MessageSquareHeart, Star } from "lucide-react";
 import React from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import { addToStore } from "../../Utility/AddToLS";
-import { Bar, BarChart, XAxis, YAxis } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
 
 const handleClick = (id) => {
   addToStore(id);
@@ -14,7 +14,7 @@ const AppDetails = () => {
 
   const data = useLoaderData();
   const singleData = data.find((app) => app.id === appId);
-  console.log(singleData)
+  console.log(singleData);
   const {
     title,
     image,
@@ -26,12 +26,13 @@ const AppDetails = () => {
     description,
   } = singleData;
 
-  // const revireData = singleData
-  // console.log(revireData.ratings)
-  // const {
-    
-  // } =revireData
+  const ratings = singleData.ratings.map((item) => {
+    let count = item.count;
+    if (count.includes("M")) count = parseFloat(count) * 1000000;
+    else if (count.includes("K")) count = parseFloat(count) * 1000;
 
+    return { name: item.name, count: count };
+  });
 
   return (
     <div className="bg-[#f5f5f5] min-h-screen">
@@ -83,15 +84,16 @@ const AppDetails = () => {
           </div>
         </div>
         <div className="divider"></div>
-        <div className="">
-          
-          <BarChart width={600} height={300}>
-            <XAxis></XAxis>
-            <YAxis></YAxis>
-            <Bar></Bar>
+        <div className="px-10">
+          <h1 className="text-2xl font-semibold mb-10">Ratting</h1>
+          <BarChart width={1000} height={250} data={ratings} layout="vertical">
+            <XAxis type="number" />
+            <YAxis dataKey="name" type="category" reversed />
+            <Tooltip />
+            <Bar dataKey="count" fill="rgba(159,98,242,1)" />
           </BarChart>
-          
         </div>
+
         <div className="divider"></div>
         <div className="">
           <h1 className="text-2xl font-semibold">Description</h1>

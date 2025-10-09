@@ -30,7 +30,7 @@ const Apps = ({ data }) => {
                   />
                   <h1 className="mt-2 font-semibold">{title}</h1>
                   <div className="my-2.5 flex justify-between items-center text-[14px]">
-                    <p className="flex gap-1.5 bg-[#f1f5e8] py-0.5 text-green-500 font-semibold px-2 rounded-[4px]">
+                    <p className="flex items-center justify-center gap-1.5 bg-[#f1f5e8] py-0.5 text-green-500 font-semibold px-2 rounded-[4px]">
                       <Download className="w-4"></Download> {downloads}
                     </p>
 
