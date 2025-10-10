@@ -14,7 +14,7 @@ const Banner2 = () => {
               <p className="text-purple-200 text-sm mb-2 md:mb-4">
                 Total Downloads
               </p>
-              <h3 className="text-4xl md:text-6xl font-bold text-white mb-2">
+              <h3 className="text-3xl md:text-6xl font-bold text-white mb-2">
                 29.6M
               </h3>
               <p className="text-purple-300 text-sm">
@@ -24,7 +24,7 @@ const Banner2 = () => {
 
             <div className="text-center">
               <p className="text-purple-200 text-sm mb-4">Total Reviews</p>
-              <h3 className="text-4xl md:text-6xl font-bold text-white mb-2">
+              <h3 className="text-3xl md:text-6xl font-bold text-white mb-2">
                 906K
               </h3>
               <p className="text-purple-300 text-sm">
@@ -34,7 +34,7 @@ const Banner2 = () => {
 
             <div className="text-center">
               <p className="text-purple-200 text-sm mb-4">Active Apps</p>
-              <h3 className="text-4xl md:text-6xl font-bold text-white mb-2">
+              <h3 className="text-3xl md:text-6xl font-bold text-white mb-2">
                 132+
               </h3>
               <p className="text-purple-300 text-sm">31 More Will Launch</p>
