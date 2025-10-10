@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   const active = ({ isActive }) => `
-  hover:link font-semibold hover:text-[#8d59ec] text-[17px]  ${
+  hover:link font-semibold hover:text-[#8d59ec] text-[13px] md:text-[17px]  ${
     isActive ? "text-[#8d59ec] underline" : "text-black font-semibold"
   }
   `;

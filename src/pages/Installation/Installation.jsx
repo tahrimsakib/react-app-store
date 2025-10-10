@@ -57,9 +57,18 @@ const Installation = () => {
         <Loading />
       ) : (
         <div className="max-w-11/12 min-h-[calc(100vh-318px)] mx-auto py-10">
+          <div>
+            <h1 className="text-3xl md:text-5xl font-bold text-[#001931] flex justify-center pt-2">
+              Your Installed Apps
+            </h1>
+            <p className="text-[#627382] text-center my-3 text-[15px] md:text-[17px] flex justify-center mt-2 mb-10">
+              All your installed apps in one place. Manage or remove them
+              anytime.
+            </p>
+          </div>
           <div className="flex justify-between items-center mb-3">
             <h1 className="text-[15px] md:text-xl font-semibold text-[#001931]">
-              App Found {appList.length}
+             {appList.length} App Found 
             </h1>
 
             <details className="dropdown">
@@ -84,12 +93,16 @@ const Installation = () => {
               >
                 <div className="flex justify-center items-center">
                   <figure>
-                    <img className="w-18 mr-3.5" src={image} alt={title} />
+                    <img
+                      className="w-14  md:w-18 mr-3.5"
+                      src={image}
+                      alt={title}
+                    />
                   </figure>
                   <div>
                     <h1 className="font-semibold mb-3.5">{title}</h1>
                     <div className="flex gap-3">
-                      <p className="flex items-center justify-center gap-0.5 bg-[#f1f5e8] py-0.5 text-green-500 font-medium text-xs px-2 rounded-[4px]">
+                      <p className="flex items-center justify-center gap-0.5 bg-[#f1f5e8] py-0.5 text-green-500 font-medium text-[11px] md:text-xs px-1 md:px-2 rounded-[4px]">
                         <Download
                           size={14}
                           color="#1ed761"
@@ -97,11 +110,11 @@ const Installation = () => {
                         />
                         {downloads}
                       </p>
-                      <p className="flex items-center gap-0.5 bg-[#fff0e1] text-orange-500 font-medium text-xs px-2 rounded-[4px]">
+                      <p className="flex items-center gap-0.5 bg-[#fff0e1] text-orange-500 font-medium text-[11px] md:text-xs px-1 md:px-2 rounded-[4px]">
                         <Star size={14} color="#ff8811" strokeWidth={1.75} />
                         {ratingAvg}
                       </p>
-                      <p className="flex items-center gap-0.5 bg-[#dcdcdc] text-gray-600 font-medium text-xs px-2 rounded-[4px]">
+                      <p className="flex items-center gap-0.5 bg-[#dcdcdc] text-gray-600 font-medium text-[11px] md:text-xs px-1 md:px-2 rounded-[4px]">
                         {size} MB
                       </p>
                     </div>
@@ -111,7 +124,7 @@ const Installation = () => {
                 <div>
                   <button
                     onClick={() => handleUninstall(id)}
-                    className="flex items-center justify-center gap-2 rounded-lg bg-[linear-gradient(125deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] p-3 font-semibold text-white shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.03] active:scale-[0.97] hover:brightness-105"
+                    className="flex items-center justify-center rounded-lg bg-[linear-gradient(125deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] p-1 md:p-3 font-medium md:font-semibold text-white shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.03] active:scale-[0.97] hover:brightness-105"
                   >
                     Uninstall
                   </button>

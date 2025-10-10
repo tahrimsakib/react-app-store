@@ -41,7 +41,7 @@ const App = () => {
           <h1 className="text-3xl md:text-5xl font-bold text-[#001931] flex justify-center pt-2">
             Our All Applications
           </h1>
-          <p className="text-[#627382] my-3 text-[17px] flex justify-center mt-2 text-center mb-6">
+          <p className="text-[#627382] text-center my-3 text-[15px] md:text-[17px] flex justify-center mt-2 mb-10">
             Explore all our applications and find the ones that fit your needs
             best.
           </p>
@@ -83,11 +83,11 @@ const App = () => {
                       />
                       <h1 className="mt-2 font-semibold">{title}</h1>
                       <div className="my-2.5 flex justify-between items-center text-[14px]">
-                        <p className="flex gap-1.5 bg-[#f1f5e8] py-0.5 text-green-500 font-semibold px-2 rounded-[4px]">
+                        <p className="flex justify-center items-center gap-1.5 bg-[#f1f5e8] py-0.5 text-green-500 font-semibold px-2 rounded-[4px]">
                           <Download className="w-4" /> {downloads}
                         </p>
 
-                        <p className="flex gap-1.5 items-center py-0.5 bg-[#fff0e1] text-orange-500 font-semibold px-2 rounded-[4px]">
+                        <p className="flex justify-center items-center gap-1.5 items-center py-0.5 bg-[#fff0e1] text-orange-500 font-semibold px-2 rounded-[4px]">
                           <Star size={16} strokeWidth={2} />
                           {ratingAvg}
                         </p>

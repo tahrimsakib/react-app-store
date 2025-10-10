@@ -16,7 +16,7 @@ const Banner = () => {
             </span>
             Apps
           </h1>
-          <p className="text-[17px] text-[#627382] my-3 max-w-5xl">
+          <p className="text-[15px] md:text-[17px] text-[#627382] mx-3 my-3 max-w-5xl">
             We Build Productive Apps that make everyday work smoother and
             smarter. Our goal is simple — create tools that save time, boost
             focus, and help you get more done effortlessly.
