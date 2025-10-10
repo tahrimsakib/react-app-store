@@ -10,6 +10,17 @@ const Installation = () => {
   const [appList, setAppList] = useState([]);
   const [sort, setSort] = useState("");
 
+  const convertDownloads = (value) => {
+    if (typeof value === "string") {
+      const num = parseFloat(value);
+      if (value.includes("B")) return num * 1_000_000_000;
+      if (value.includes("M")) return num * 1_000_000;
+      if (value.includes("K")) return num * 1_000;
+      return num;
+    }
+    return value;
+  };
+
   useEffect(() => {
     const storeApp = getStoreApp();
     const convert = storeApp.map((id) => parseInt(id));
@@ -25,15 +36,16 @@ const Installation = () => {
 
   const handleSort = (type) => {
     setSort(type);
-    if (type === "Size") {
-      const sortBySize = [...appList].sort((a, b) => b.size - a.size);
-      setAppList(sortBySize);
-    }
-    if (type === "Rating") {
-      const sortByRating = [...appList].sort(
-        (a, b) => b.ratingAvg - a.ratingAvg
+    if (type === "High-Low") {
+      const sorted = [...appList].sort(
+        (a, b) => convertDownloads(b.downloads) - convertDownloads(a.downloads)
       );
-      setAppList(sortByRating);
+      setAppList(sorted);
+    } else if (type === "Low-High") {
+      const sorted = [...appList].sort(
+        (a, b) => convertDownloads(a.downloads) - convertDownloads(b.downloads)
+      );
+      setAppList(sorted);
     }
   };
 
@@ -47,22 +59,22 @@ const Installation = () => {
         <div className="max-w-11/12 min-h-[calc(100vh-318px)] mx-auto py-10">
           <div className="flex justify-between items-center mb-3">
             <h1 className="text-[15px] md:text-xl font-semibold text-[#001931]">
-              App Found {appList.length}{" "}
+              App Found {appList.length}
             </h1>
+
             <details className="dropdown">
-              <summary className="btn m-1">
-                Sort By: {sort ? sort : ""}{" "}
-              </summary>
-              <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-25 p-2 shadow-sm">
+              <summary className="btn m-1">Sort By: {sort || "Select"}</summary>
+              <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-40 p-2 shadow-sm">
                 <li>
-                  <a onClick={() => handleSort("Size")}>Size</a>
+                  <a onClick={() => handleSort("High-Low")}>High-Low</a>
                 </li>
                 <li>
-                  <a onClick={() => handleSort("Rating")}>Rating</a>
+                  <a onClick={() => handleSort("Low-High")}>Low-High</a>
                 </li>
               </ul>
             </details>
           </div>
+
           {appList.map((app) => {
             const { id, image, downloads, size, title, ratingAvg } = app;
             return (
@@ -72,10 +84,10 @@ const Installation = () => {
               >
                 <div className="flex justify-center items-center">
                   <figure>
-                    <img className="w-18 mr-3.5" src={image} alt="" />
+                    <img className="w-18 mr-3.5" src={image} alt={title} />
                   </figure>
                   <div>
-                    <h1 className="font-semibold mb-3.5">{title} </h1>{" "}
+                    <h1 className="font-semibold mb-3.5">{title}</h1>
                     <div className="flex gap-3">
                       <p className="flex items-center justify-center gap-0.5 bg-[#f1f5e8] py-0.5 text-green-500 font-medium text-xs px-2 rounded-[4px]">
                         <Download
@@ -85,24 +97,21 @@ const Installation = () => {
                         />
                         {downloads}
                       </p>
-                      <p className="flex items-center gap-0.5 bg bg-[#fff0e1] text-orange-500 font-medium text-xs px-2 rounded-[4px]">
-                        <Star
-                          size={14}
-                          color="#ff8811"
-                          strokeWidth={1.75}
-                        ></Star>
+                      <p className="flex items-center gap-0.5 bg-[#fff0e1] text-orange-500 font-medium text-xs px-2 rounded-[4px]">
+                        <Star size={14} color="#ff8811" strokeWidth={1.75} />
                         {ratingAvg}
                       </p>
-                      <p className=" flex items-center gap-0.5 bg bg-[#dcdcdc] text-gray-600 font-medium text-xs px-2 rounded-[4px]">
+                      <p className="flex items-center gap-0.5 bg-[#dcdcdc] text-gray-600 font-medium text-xs px-2 rounded-[4px]">
                         {size} MB
                       </p>
                     </div>
                   </div>
                 </div>
+
                 <div>
                   <button
                     onClick={() => handleUninstall(id)}
-                    className="flex items-center justify-center gap-2 rounded-lg bg-[linear-gradient(125deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] p-3 font-semibold text-white shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.03] active:scale-[0.97] hover:brightness-105 btn btn-outline "
+                    className="flex items-center justify-center gap-2 rounded-lg bg-[linear-gradient(125deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] p-3 font-semibold text-white shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.03] active:scale-[0.97] hover:brightness-105"
                   >
                     Uninstall
                   </button>

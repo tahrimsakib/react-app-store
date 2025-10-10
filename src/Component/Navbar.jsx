@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   const active = ({ isActive }) => `
-  hover:link font-semibold hover:text-[#8d59ec] ${
+  hover:link font-semibold hover:text-[#8d59ec] text-[17px]  ${
     isActive ? "text-[#8d59ec] underline" : "text-black font-semibold"
   }
   `;
@@ -52,8 +52,10 @@ const Navbar = () => {
         </div>
         <figure className="flex justify-center items-center gap-2 cursor-pointer">
           <img className="max-w-8 " src={logo} alt="" />
-          <a href="/" className="font-bold text-[#8d59ec] ">
-            Hero App
+          <a href="/" className="font-bold text-[#8d59ec] text-[17px] ">
+            <span className="text-black font-semibold ">
+              Hero <span className="text-[#b28fff]">App</span>
+            </span>{" "}
           </a>
         </figure>
       </div>
