@@ -18,7 +18,7 @@ const Apps = ({ data }) => {
           {firstEight.map((singleApp) => {
             const { id, title, image, ratingAvg, downloads } = singleApp;
             return (
-              <Link to={`app/appdetails/${id}`}>
+              <Link key={id} to={`app/appdetails/${id}`}>
                 <div
                   key={id}
                   className="bg-white p-3 shadow-xl rounded-lg w-full hover:scale-[1.02] duration-200"
