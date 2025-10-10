@@ -1,16 +1,27 @@
-# React + Vite
+# 🚀 Hero AppStore React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive React app that lists apps, lets users install/uninstall them, and sort by download count. Includes smooth UI, toast notifications, and a custom loader.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features
 
-## React Compiler
+- 🔍 **App Listing** — Dynamic display of apps from JSON data.  
+- 💾 **Install/Uninstall** — Save apps to local storage and remove them easily.  
+- 🔔 **Toast Notifications** — Alerts for adding/removing apps or duplicates.  
+- ⏳ **Custom Loader** — Unique animated spinner while loading data.  
+- 📊 **Sort by Downloads** —  
+  - **High → Low**: Most downloaded first  
+  - **Low → High**: Least downloaded first  
+- 🎨 **Tailwind CSS Styling** — Clean and responsive UI.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js (latest)  
+- React Router DOM v6  
+- Tailwind CSS  
+- Daisy UI
+- React Toastify  
+- Lucide Icon
