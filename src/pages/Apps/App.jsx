@@ -47,12 +47,12 @@ const App = () => {
                 <Link key={id} to={`/app/appdetails/${id}`}>
                   <div
                     key={id}
-                    className="bg-white p-3 shadow-xl rounded-lg w-full transition hover:scale-[1.02] duration-200"
+                    className="bg-white p-3 shadow-xl rounded-lg w-fit transition hover:scale-[1.02] duration-200"
                   >
                     <img
                       src={image}
                       alt={title}
-                      className="w-full object-contain rounded-md"
+                      className="w-[250px] object-contain rounded-md"
                     />
                     <h1 className="mt-2 font-semibold">{title}</h1>
                     <div className="my-2.5 flex justify-between items-center text-[14px]">
